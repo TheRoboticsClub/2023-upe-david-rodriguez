@@ -60,7 +60,7 @@ Librería local que almacena todas las instrucciones que podrán ejecutarse desd
 
 ## Primeros pasos para ejecutar un torneo automatico
 
-Para poder ejecutar un torneo en local se debe haber podido llevar a cabo un despliegue D1, más información en [Despliegues]: https://github.com/JdeRobot/unibotics-webserver/blob/master/docs/Despliegues.md
+Para poder ejecutar un torneo en local se debe haber podido llevar a cabo un despliegue D1, más información en [Despliegues.]: ./docs/Despliegues.md
 
 En primer lugar asegurarse que el programa de docker está abierto y que se tienen los contenedores de bd_container (mysql), AcademyElastic (elasticSearch) y jderobotRADI (RADI ejercicios). En caso de no tenerlos, buscar las imagenes de mysql, elasticsearch:7.11.1 y robotics_academy:latest
 
