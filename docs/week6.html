@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week5</title>
+    <title>Week6</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/logo.png">
 </head>
@@ -47,40 +47,30 @@
         <div id="Week 1" class="col-9 col-s-12">
             <hr>
 
-            <h1>February 20th - February 26th</h1>
+            <h1>February 27th - March 5th</h1>
 
-            <p>This week I contacted Raul Fernandez Ruiz, the person that developed the Run.py and
-                TorneoAutomatico.py.<br>We researched all the methods in the script and solve almost all error relating
-                to the updated frontend. <br><br>Also this week I solve the problems with OBS, being able to open it and
-                start streaming on Twitch automatically. (IMPORTANT: to the obs to be able to start it has to be named
-                as obs64, the default OBS Studio name cant be opened automatically).<br><br>Related to the
-                tournaments:<br>The elasticsearch problem has been solved (in env search for Elasticshearchhost and
-                copy:127.0.0.1) so the master user can also create tournaments and add users to them.<br>The Selenium
-                page has now also a createTournamets function which can create a tournament with the dates and exercise
-                that the user might want.<br>The admin user can now see all tournaments and register himself in them if
-                it is on time. He can also see the puntuation in real time of the users that the Run.py script evaluates
-                and its ranking.<br>The has been published a new branch in the unibotics-webserver repository named
-                origin/SeleniumTournament which includes this updates up to this dates.</p>
+            <p>This week I prepared a solution to a problem that occured us: How can the user run the server rapidly and
+                then the script? After trying several options I ended up proposing making a ps1 file which will be in
+                charge of opening the docker containers and run the server.<br>I prepared an issue with its patch in the
+                origin/seleniumTournament branch to be merged in the master branch, with all its documentation needed as
+                TournamentDoc.ps<br>Also this week I solved a light bug, that occured when the script accesed an
+                exercise too fast to the RADI to be operative and it didnt launch the exercise, by just refreshing the
+                page if it passed some time.<br></p>
             <br>
-            <h2>Here is a video demostration of the script running</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/oKpLgcb7OdU"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>Demostration video</iframe>
         </div>
 
         <div class="col-3 col-s-12">
             <div id="blog" class="aside">
                 <h1>Weekly blog</h1>
                 <hr>
-                <a href="week4.html">
-                    <h2>Week 4</h2>
-                    <p>February 13th - February 19th</p>
+                <a href="week5.html">
+                    <h2>Week 5</h2>
+                    <p>February 20th - February 26th</p>
                 </a>
                 <hr>
-                <a href="week6.html">
+                <a href="week7.html">
                     <h2>Next week</h2>
-                    <p>February 27th - March 5th</p>
+                    <p>March 6th - March 12th</p>
                 </a>
 
             </div>
