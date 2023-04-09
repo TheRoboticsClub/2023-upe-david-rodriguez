@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week4</title>
+    <title>Week8</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/logo.png">
 </head>
@@ -47,33 +47,31 @@
         <div id="Week 1" class="col-9 col-s-12">
             <hr>
 
-            <h1>February 13th - February 19th</h1>
+            <h1>March 13th - March 19th</h1>
 
-            <p>This week I researched deeper in the exercises problems, solving the load problem by copying the
-                templates from the exercises folder to the templates folder. I tried connecting to some farms from the
-                urjc but could'nt so I ended up using the local backend option instead<br><br>Related to the master
-                account:<br>I tried creating a tournament but encounter a problem, that I think is related to
-                ElasticSearch, in which it is not connected to my machine although it is running as a docker
-                container.<br>I also tried to start streaming using obs-websockets but could'nt access by a python
-                console.<br>One solution that I encounter was to use a webservice located in "obs-web.niek.tv" in which
-                you can access to that same plugin and click the buttons of start and end streaming. This will be
-                usefull if the program trying to start the stream was a Selenium driver.<br><a
-                    href="https://github.com/obsproject/obs-websocket">Obs-Websocket Repository</a><br>Some other python
-                packages that I tried were simpleobsws, obsws-python and obswebsocket</p>
+            <p>This week I adapted the script to be able to execute the new React Exercises and the new RADI
+                version.<br>First by creating a function named loadFile, the script is now able to load a local file.
+                This needed a new dependency called pyoutogui to be able to search for a specific file.<br>Also, I fixed
+                a common problem related to the load of a file with loading errors, that wasn't able to load in the
+                robot. Before, the script just crashed but now it will pass to the next file, closing the error in
+                screen in the process.<br>Also I changed the port in which the server is running to the 7000 port for
+                the new version of the RADI.
+            <p>
+                <br>
         </div>
 
         <div class="col-3 col-s-12">
             <div id="blog" class="aside">
                 <h1>Weekly blog</h1>
                 <hr>
-                <a href="week3.html">
-                    <h2>Week 3</h2>
-                    <p>February 6th - February 12th</p>
+                <a href="week7.html">
+                    <h2>Week 7</h2>
+                    <p>March 6th - March 12th</p>
                 </a>
                 <hr>
-                <a href="week5.html">
+                <a href="week9.html">
                     <h2>Next week</h2>
-                    <p>February 20th - February 26th</p>
+                    <p>March 20th - March 26th</p>
                 </a>
 
             </div>

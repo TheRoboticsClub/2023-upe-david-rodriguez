@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week4</title>
+    <title>Week10</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/logo.png">
 </head>
@@ -47,33 +47,33 @@
         <div id="Week 1" class="col-9 col-s-12">
             <hr>
 
-            <h1>February 13th - February 19th</h1>
+            <h1>March 27th - April 2nd</h1>
 
-            <p>This week I researched deeper in the exercises problems, solving the load problem by copying the
-                templates from the exercises folder to the templates folder. I tried connecting to some farms from the
-                urjc but could'nt so I ended up using the local backend option instead<br><br>Related to the master
-                account:<br>I tried creating a tournament but encounter a problem, that I think is related to
-                ElasticSearch, in which it is not connected to my machine although it is running as a docker
-                container.<br>I also tried to start streaming using obs-websockets but could'nt access by a python
-                console.<br>One solution that I encounter was to use a webservice located in "obs-web.niek.tv" in which
-                you can access to that same plugin and click the buttons of start and end streaming. This will be
-                usefull if the program trying to start the stream was a Selenium driver.<br><a
-                    href="https://github.com/obsproject/obs-websocket">Obs-Websocket Repository</a><br>Some other python
-                packages that I tried were simpleobsws, obsws-python and obswebsocket</p>
+            <p>This week I tried solving a certain issue regarding the number of participants in a tournament.<br>This
+                number was always 10 users per tournament, although it seemed that the master could save more people
+                in.<br>In fact, when I tried add new users with a higher score that the last ones, they appeared to
+                smash them, making it so that they wouldn't appear again ever.<br>This was a sign that it wasn't a
+                problem on the database but rather the Search methods.<br><br>After trying lots of patchs, I was
+                finnally able to solve it by just telling python that the size of the data that it had searched had 100
+                spaces and not the default space that was 10.<br>This had to be done everytime there was a Search
+                function
+            <p>
+                <br>
+                <img width="560" height="auto" src="images/search.png" alt="">
         </div>
 
         <div class="col-3 col-s-12">
             <div id="blog" class="aside">
                 <h1>Weekly blog</h1>
                 <hr>
-                <a href="week3.html">
-                    <h2>Week 3</h2>
-                    <p>February 6th - February 12th</p>
+                <a href="week9.html">
+                    <h2>Week 9</h2>
+                    <p>March 20th - March 26th</p>
                 </a>
                 <hr>
-                <a href="week5.html">
+                <a href="week11.html">
                     <h2>Next week</h2>
-                    <p>February 20th - February 26th</p>
+                    <p>April 3rd - April 9th</p>
                 </a>
 
             </div>
