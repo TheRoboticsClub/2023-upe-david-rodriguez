@@ -74,13 +74,13 @@ Activar los websockets
 - Aceptar la opción de Habilitar servidor Websocket
 - Copiar los datos de la información de la conexión (ip:puerto y contraseña) en las líneas:
 
-´´´
+```
 TorneoAutomatico.py / Línea 646
 
 self.startRecord("ws://192.168.1.36:4444", "fWN24QpQuPWdLeO6")
-´´´
+```
 
-´´´
+```
 Estas no serán necesarias pero son recomendables al ser la misma información
 Run.py / Líneas 13 y 58
 
@@ -94,7 +94,7 @@ bot.stopStreaming("ws://192.168.1.36:4444", "fWN24QpQuPWdLeO6")
 TorneoAutomatico.py / Línea 58
 
 self.host = env.str("ws://192.168.1.36:4444", "fWN24QpQuPWdLeO6")
-´´´
+```
 
 ### Configuración de la API
 
@@ -116,7 +116,7 @@ Despues de configurar las credenciales compatibles deberemos crear unas nuevas c
 
 Crear un nuevo archivo en el proyecto llamado "client_secrets.json" en el directorio de videosGuardados y rellenarlo de estos datos:
 
-´´´
+```
 {
   "web": {
     "client_id": "[[INSERT CLIENT ID HERE]]",
@@ -126,7 +126,7 @@ Crear un nuevo archivo en el proyecto llamado "client_secrets.json" en el direct
     "token_uri": "https://accounts.google.com/o/oauth2/token"
   }
 }
-´´´
+```
 Insertando en el client_id y en client_secret las credenciales que acabamos de crear en la API
 
 ### Primera ejecución
