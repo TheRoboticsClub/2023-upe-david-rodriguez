@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week14</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="col-1 col-s-12">
+            <a class="noneWhite" href="https://jderobot.github.io">
+                <img src="images/logo.png" width="75" height="75">
+            </a>
+        </div>
+
+
+        <div class="col-7 col-s-12">
+
+            <h1>2023 upe David Rodriguez Rives</h1>
+
+        </div>
+
+
+        <div class="col-4 col-s-12">
+            <div class="menu">
+
+                <ul>
+                    <li><a class="noneDarkBlue" href="index.html#AboutMe">About me</a></li>
+                    <li><a class="noneDarkBlue" href="index.html#Proyects">Proyects</a></li>
+                    <li><a class="noneDarkBlue" href="index.html#blog">Weekly Blog</a></li>
+                    <li><a class="noneDarkBlue" href="index.html#footer">Contact</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+
+
+        <div id="Week 1" class="col-9 col-s-12">
+            <hr>
+
+            <h1>April 24th - April 30th</h1>
+
+            <p>This week I prepared the PaginaTorneo.html script for being able to load and write puntuations from
+                PostgreSQL (named PaginaTorneo4).<br>First of all, I exposed the 5432 in the Dockerfile and
+                docker-compose.yml files for the docker to connect and I used the psycopg2 package to connect the script
+                to docker.<br>After that I corrected the puntuationsFromSQL function for it to order automatically the
+                rows by puntuation and dont deppend on another functions<br> I then used a VIEW called participantsView
+                for a faster lecture of the data both for MySQL and PostgreSQL.<br><br>I fixed some bugs in
+                TorneoAutomatico.py script regarding the record and upload of videos and preparing in to do it
+                automatically for several users.
+            <p>
+                <br>
+        </div>
+
+        <div class="col-3 col-s-12">
+            <div id="blog" class="aside">
+                <h1>Weekly blog</h1>
+                <hr>
+                <a href="week13.html">
+                    <h2>Week 13</h2>
+                    <p>April 17th - April 23th</p>
+                </a>
+                <hr>
+                <a href="week15.html">
+                    <h2>Next week</h2>
+                    <p>May 1st - May 7th</p>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <footer>
+            <hr>
+            <p style="font-size: smaller;">All rights reserved to David Rodriguez</p>
+            <a href="http:wa.me/653723312" class="noneWhite">
+                <img src="images/whas.png" alt="Whatsapp" height="50px" width="auto">
+            </a>
+            <a href="mailto:miniesdax@gmail.com?Subject=Interesado%20en%20tu%20perfil%20profesional%20de%20JdeRobot"
+                class="noneWhite">
+                <img src="images/mail.png" alt="Mail" height="50px" width="auto">
+            </a>
+        </footer>
+    </div>
+
+</body>
+
+</html>
